@@ -20,6 +20,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
@@ -34,7 +35,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Alexandria',
+        title: 'Netbound Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -57,16 +58,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+            // title: 'Docs',
+            // items: [
+            //   {
+            //     label: 'Tutorial',
+            //     to: '/docs/intro',
+            //   },
+            // ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Alexandria, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Netbound, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
