@@ -37,6 +37,7 @@ jobs:
           node-version: '12.x'
       - uses: webfactory/ssh-agent@v0.5.0
         with:
+          # Add to repository secrets
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
       - name: Release to GitHub Pages
         env:
