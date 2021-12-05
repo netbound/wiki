@@ -124,6 +124,7 @@ WantedBy=multi-user.target
 Description=Rpcdaemon
 After=network.target erigon.service
 Wants=erigon.service
+PartOf=erigon.service
 
 [Service]
 Type=simple
@@ -140,6 +141,7 @@ WantedBy=multi-user.target
 Description=Lighthouse Beacon Node
 After=network.target rpcdaemon.service
 Wants=rpcdaemon.service
+PartOf=rpcdaemon.service
 
 [Service]
 Type=simple
