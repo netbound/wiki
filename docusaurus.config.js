@@ -37,16 +37,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       navbar: {
         title: 'Netbound Wiki',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Netbound Logo',
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Wiki',
-          // },
           {
             href: 'https://github.com/netbound/wiki',
             label: 'GitHub',
